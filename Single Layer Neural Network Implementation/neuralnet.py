@@ -130,7 +130,6 @@ def main():
         weights.append(0.1)                        #weights initially set to 0.1
     
     
-    
     (class0instances,class1instances) = divideByClass(trainingInstances)
     numOfinstancesInSampleSubsetWithClass0 = int((len(class0instances)/n))
     numOfinstancesInSampleSubsetWithClass1 = int((len(class1instances)/n))
